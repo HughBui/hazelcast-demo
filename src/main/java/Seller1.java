@@ -23,7 +23,7 @@ public class Seller1 {
     for (int i = 0; i < 12; i++) {
       inventory.put("Books", inventory.get("Books") - 5);
       System.out.print(">>> Selling 5 books - ");
-      System.out.println(inventory.get("Books") + " books remain");
+      System.out.println(inventory.get("Books") + " books left");
       Thread.sleep(1000);
     }
 
